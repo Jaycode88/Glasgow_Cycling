@@ -8,6 +8,23 @@
     box-sizing: border-box;
 }
 
+/* Site Content */
+
+.site-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main.flex-grow-1 {
+    flex-grow: 1;
+}
+
+footer.mt-auto {
+    margin-top: auto;
+}
+
+/* -----HEADER----- */
 header {
     /* background-color: #9cd9c8; */
     position: fixed;
@@ -51,4 +68,10 @@ a {
 #menu li:hover {
     text-decoration: underline;
     font-weight: 600;
+}
+
+/* -----FOOTER----- */
+.footer {
+    padding: 20px 0;
+    background-color: #f2b705;
 }
